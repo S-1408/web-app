@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import Card from '../../component/card/Card';
 import { fetchAllPost, getAllPost } from './../../pageSlice/pageSlice';
 import styles from './PostPage.module.css'
 // import parse from 'html-react-parser';
@@ -60,7 +59,7 @@ const PostPages = () => {
                             )
                         }))
                     }
-                    {/* <Card/> */}
+                  
                 </div>
                 <div className={styles.card}>
                     <p>{c.toUpperCase()}</p>
@@ -79,7 +78,7 @@ const PostPages = () => {
                                 )
                             }))
                     }
-                    {/* <Card/> */}
+                   
                 </div>
                 <div className={styles.card}>
                     <p>{f.toUpperCase()}</p>
@@ -139,7 +138,7 @@ const PostPages = () => {
                                 )
                             }))
                     }
-                    {/* <Card/> */}
+                   
                 </div>
             </div>
         </>

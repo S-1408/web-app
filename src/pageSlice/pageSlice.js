@@ -1,10 +1,10 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit"
-import axios from "axios";
+
 import blogApi from "../api/blogApi"
-import { APIKey } from './../api/blog-api-key';
+import { APIKey } from '../api/blog-api-key';
 
 export const fetchPages = createAsyncThunk('pages/fetchPages', async () => {
-    const pageText = 'page'
+ 
     const response = await blogApi
         .get(`/pages/?key=${APIKey}`)
         .catch(err => {
