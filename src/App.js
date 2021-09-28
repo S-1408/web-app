@@ -13,17 +13,15 @@ function App() {
       <Router>
       <Navbar/>
         <Switch>
-          <Route path="/linkpage">
-          <LinkPages/>
-          </Route>
-          <Route path="/postpage">
-     <PostPages/>
+            <Route exact path="/" component={Dashboard}/>
+    
 
-          </Route>
-          <Route path="/dashboard">
-     <Dashboard/>
-
-          </Route>
+          
+          <Route path="/linkpage" component={LinkPages}/>
+         
+          <Route path="/postpage" component={PostPages}/>
+    
+        
 
         </Switch>
      </Router>

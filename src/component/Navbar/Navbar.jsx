@@ -7,7 +7,7 @@ export const Navbar = () => {
         <div className="nav">
             <div className="logo">WEB<span className="spanColor">APP</span></div>
             <ul className="main">
-                <li><NavLink to="/dashboard">Dashboard </NavLink></li>
+                <li><NavLink to="/">Dashboard </NavLink></li>
                 <li><NavLink to="/linkpage">LinkPage </NavLink></li>
                 <li><NavLink to="/postpage">PostPages </NavLink></li>
             </ul>

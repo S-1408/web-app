@@ -19,7 +19,7 @@ const LinkPages = () => {
     let b='Broken Internal Link'
     let c ='Broken External Link'
     let d="Total Link"
-    // let totalPost = posts.posts.length
+    
     return (
         <>
         <h3 style={{color:"grey"}}>LINK PAGE</h3>

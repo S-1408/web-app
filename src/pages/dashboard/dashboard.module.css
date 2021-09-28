@@ -13,4 +13,8 @@
 display: flex;
 justify-content: space-evenly;
 }
- 
+ .text{
+font-size: large;
+padding:0px, 10px;
+padding-top:30px;
+}
