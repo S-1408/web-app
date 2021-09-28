@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { fetchAuthors, fetchPages, fetchPosts, fetchTags, getAllAuthors, getAllPages, getAllTags, getPosts, getAllPost, getLatestPosts, fetchAllPost } from './../../pageSlice/pageSlice';
+import { fetchAuthors, fetchPages, fetchTags, getAllAuthors, getAllPages, getAllTags, getAllPost,  fetchAllPost } from './../../pageSlice/pageSlice';
 import dash from './dashboard.module.css';
 import dateFormat from 'dateformat';
 

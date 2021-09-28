@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import LinkPages from './pages/LinkPage/LinkPages';
 import PostPages from './pages/PostPages/PostPages';
@@ -13,7 +13,7 @@ function App() {
       <Router>
       <Navbar/>
         <Switch>
-            <Route exact path="/" component={Dashboard}/>
+            <Route path="/" component={Dashboard}/>
     
 
           

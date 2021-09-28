@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react'
-import Card from '../../component/card/Card'
 import  link from './LinkPage.module.css'
 import { fetchPosts, fetchAllPost, getPosts, getAllPost } from './../../pageSlice/pageSlice';
 import { useDispatch, useSelector } from 'react-redux';
