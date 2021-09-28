@@ -1,0 +1,36 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(44, 172, 150);
+}
+.main{
+display: flex;
+justify-content: space-between;
+}
+
+.main li{
+    padding: 20px;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+    
+}
+.main li a{
+    cursor: pointer;
+    text-decoration: none;
+}
+.logo{
+text-align: center;
+padding-top:30px;
+font-size:30px;
+font-weight: 500;
+
+}
+.spanColor{
+    color:rgb(202, 102, 20);
+    font-size:30px;
+font-weight: 500;
+
+}

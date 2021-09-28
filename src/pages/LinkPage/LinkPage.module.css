@@ -1,0 +1,33 @@
+.cards{
+    display: flex;
+   justify-content: space-evenly;
+
+}
+.cards .card{
+    flex:0 1 24%;
+    padding:20px;
+  
+    margin:10px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    background-color: white;
+    text-align: center;
+
+
+}
+.container{
+    margin:20px
+}
+
+ .index{
+  font-size: large;
+  padding: 0 5px;
+  color:black
+}
+.link{
+    padding:0 5px;
+}
+.textColor{
+    color:red;
+    font-size:large
+}

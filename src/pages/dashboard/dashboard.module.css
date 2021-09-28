@@ -1,0 +1,16 @@
+.blocks{
+    display:flex;
+    justify-content: space-evenly;
+    
+}
+.box{
+    width:50%;
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.chartSection{
+display: flex;
+justify-content: space-evenly;
+}
+ 
